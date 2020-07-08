@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body {
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    width: 1280px;
+    height: 720px;
+}
+
+#layout01 {
+    background-color: red;
+    width: 880px;
+    height: 100px;
+    float: left;
+    /* 回り込み */
+}
+
+#layout02 {
+    background-color: green;
+    width: 400px;
+    height: 100px;
+    float: left;
+    /* 回り込み */
+}
+
+#layout03 {
+    background-color: yellow;
+    width: 880px;
+    height: 540px;
+    clear: both;
+    float: left;
+    /* 回り込み解除 */
+}
+
+#layout04 {
+    background-color: tomato;
+    width: 400px;
+    height: 540px;
+    float: left;
+    /* 回り込み */
+}
+
+#layout05 {
+    background-color: rgb(0, 132, 255);
+    width: 880px;
+    height: 80px;
+    clear: both;
+    float: left;
+    /* 回り込み解除 */
+}
+
+#layout06 {
+    background-color: rgb(219, 150, 45);
+    width: 400px;
+    height: 80px;
+    float: left;
+    /* 回り込み */
+}
