@@ -1,6 +1,7 @@
 // ボタンを押すと、ブロック内のプログラムが実行される
 var video = document.getElementById('video');
 var layout = document.getElementById('layout');
+var twitchid = document.getElementById('frame_url');
 
 $('#control_positionX').on("input", function() {
     video.style.left = control_positionX.value + "px";
@@ -24,4 +25,8 @@ $('#frame_width').on("input", function() {
 
 $('#frame_height').on("input", function() {
     layout.style.height = frame_height.value + "px";
+});
+
+$("#frame_button").on("click", function()  {
+  video.src = "https://player.twitch.tv/?channel=" + twitchid.value + "&parent=microlemongrass.github.io";
 });
